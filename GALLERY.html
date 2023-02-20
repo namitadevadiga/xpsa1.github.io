@@ -1,0 +1,313 @@
+<!XPSA Webdesign Assignment>
+
+<html lang="en">
+ <head>
+<meta charset="utf-8">
+  <title>xpsa-Gallery</title>
+  
+  <!background Image>
+  <style>
+      body {
+        background-image: url('');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1536px;
+        width: 1366px;
+        overflow: auto;
+      }
+    </style>
+  
+  <!Website width size>
+	<style>
+      body {
+        margin: 0;
+        padding: 0;
+        max-width: 1366px;
+        margin: 0 auto;
+      }
+	  
+  <!side alignment of texts and images>
+  <style>
+		.image {
+			float: left;
+			margin-right: 20px;
+		}
+		
+		.text {
+			text-align: left;
+		}
+	</style>
+	<!adjst/move image upwards>
+	<style>
+		.image {
+			vertical-align: middle;
+			margin-top: -10px; /* adjust the value to move the image up or down */
+		}
+	</style>
+	<!rectangular boxes>
+	<style>
+      .container1 {
+        max-width: 1366px;
+        margin: 0 auto;
+        padding: 0px;
+        background-color: #caefa4;
+        border: 1px solid #caefa4;
+      }
+ </style>
+ 
+ <!for dark green line>
+ <style>
+		hr {
+			height: 5px;
+			border: none;
+			background-color: #113804;
+			width: 1366px;
+		}
+	</style>
+	
+<!images code Upper one>
+<style>
+      /* Gallery container */
+      .gallery {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+      }
+      
+      /* Gallery item */
+      .gallery-item {
+        margin-right: 20px;
+        width: 400px;
+        height: 250px;
+        position: relative;
+        overflow: hidden;
+        border: 3px solid white;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+        animation: movePictures 10s linear infinite;
+      }
+      
+      /* Gallery item image */
+      .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      /* Gallery animation */
+      @keyframes movePictures {
+        0% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(-100%);
+        }
+        50% {
+          transform: translateX(-200%);
+        }
+        75% {
+          transform: translateX(-300%);
+        }
+        100% {
+          transform: translateX(-400%);
+        }
+      }
+    </style>
+<!images code Lower one>
+<style>
+      /* Gallery container */
+      .gallery1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      /* Gallery item */
+      .gallery-item1 {
+        margin: 10px;
+        width: 300px;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        border: 3px solid white;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      /* Gallery item hover */
+      .gallery-item1:hover {
+        transform: scale(1.1);
+        border-color: #76baff;
+      }
+      
+      /* Gallery item image */
+      .gallery-item1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      /* Gallery item hover image */
+      .gallery-item1:hover img {
+        transform: scale(1.1);
+      }
+      
+      /* Gallery item title */
+      .gallery-item1-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        padding: 10px;
+        box-sizing: border-box;
+        font-size: 18px;
+        text-align: center;
+        transition: opacity 0.3s ease-in-out;
+        opacity: 0;
+      }
+      
+      /* Gallery item hover title */
+      .gallery-item1:hover .gallery-item1-title {
+        opacity: 1;
+      }
+    </style>  
+	
+	<!iframe beside text>
+<style>
+		iframe {
+			float: right;
+			margin-left: -200px; /* optional margin to create some space between the iframe and text */
+		}
+	</style>
+	
+	<!hyperlinks to appear in black color>
+	<style>
+		a {
+			color: darkgreen;
+			text-decoration: none;
+		}
+	</style>
+
+</head>
+
+<body>
+<header>
+ <!First logo banner and college name>
+ 
+<!college logo> 
+
+<div class="image">    
+ <a href="https://xaviers.ac/"><img src="https://i.ibb.co/G0Y83vR/college-logo.png" alt="college-logo" border="0" width="140" height="160"></a>  
+</div>
+<!college name> 
+<div class="text">
+
+  <h1 class="textheading1 mobile-oversized" style="font-size: 52px; text-align: center;"><span style="font-family: 'Times New Roman', Times, serif; font-size: 52px; font-color: Red; font-weight: bold;" class="mobile-oversized">St.Xavier's College, Mumbai<br>(autonomous) 
+</h1>
+
+</div>
+
+<center>
+
+<!Banner> 
+<img class="image" src="https://i.ibb.co/RbsbL9g/Heading.png" alt="Heading" border="0" width="1366" height="450">
+</header>
+  <div class="container1">
+  <center>
+  <hr>
+<h2 class="textheading1 mobile-oversized" style="font-size: 28px; text-align: left;"><span style="font-family: 'Times New Roman', Times, serif; font-size: 28px; font-weight: bold;" class="mobile-oversized">
+ <style="flex: 1;"> 
+ <a href="C:\Users\B KISHOR KUMAR\OneDrive\Desktop\nami\html files\Major\index.html">&nbsp;&nbsp; Home &nbsp;</a> 
+ <a href="C:\Users\B KISHOR KUMAR\OneDrive\Desktop\nami\html files\Major\ABOUT US.html">&nbsp; About Us &nbsp;</a> 
+ <a href="C:\Users\B KISHOR KUMAR\OneDrive\Desktop\nami\html files\Major\UPCOMING EVENTS.html">&nbsp;&nbsp; Upcoming Events &nbsp;</a> 
+ <a href="C:\Users\B KISHOR KUMAR\OneDrive\Desktop\nami\html files\Major\GALLERY.html">&nbsp;&nbsp; Gallery &nbsp</a> 
+ <a href="C:\Users\B KISHOR KUMAR\OneDrive\Desktop\nami\html files\Major\PUBLICATIONS.html">&nbsp;&nbsp; Publications &nbsp;</a> 
+ <a href="C:\Users\B KISHOR KUMAR\OneDrive\Desktop\nami\html files\Major\STUDENTS' CORNER.html">&nbsp;&nbsp; Students Corner &nbsp;</a>  
+ <a href="C:\Users\B KISHOR KUMAR\OneDrive\Desktop\nami\html files\Major\CONTACT.HTML">&nbsp;&nbsp; Contact Us &nbsp;</a>
+</h2>
+<hr>
+  </center>
+  </div>
+  
+  <div class="container1">
+ <h2 class="textheading1 mobile-oversized" style="font-size: 42px; text-align: center;"><span style="font-family: 'Times New Roman', Times, serif; font-color: #ffffff; font-size: 42px; font-weight: bold;" class="mobile-oversized" > 
+  Gallery
+  </h2>
+  </div>
+  <hr>
+  <!horizontal dark green border>
+  
+  
+  <!Moving pictures>
+   <div class="gallery1">
+      <div class="gallery-item1">
+        <img src="https://i.ibb.co/wCw9sZR/IMG-2.png" alt="IMG-2">
+      </div>
+      <div class="gallery-item1">
+        <img src="https://i.ibb.co/s6v7CPM/1.jpg" alt="1">
+      </div>
+      <div class="gallery-item1">
+       <img src="https://i.ibb.co/7SLNhN0/2.jpg" alt="2">
+      </div>
+      <div class="gallery-item1">
+       <img src="https://i.ibb.co/qDT3qD1/IMG-4.png" alt="IMG-4">
+      </div>
+   </div>
+	
+  <!still pictures( if you wanna add image description you can add in that black text example : Image 1>
+  <div class="gallery1">
+      <div class="gallery-item1">
+      <img src="https://i.ibb.co/7NvctJK/3.jpg" alt="3">
+        <div class="gallery-item-title">Image 1</div>
+      </div>
+      <div class="gallery-item1">
+      <img src="https://i.ibb.co/KzdyJ7n/4.jpg" alt="4">
+        <div class="gallery-item-title">Image 2</div>
+      </div>
+      <div class="gallery-item1">
+      <img src="https://i.ibb.co/SwGmKC3/IMG-3.png" alt="IMG-3">
+        <div class="gallery-item-title1">Image 3</div>
+      </div>
+      <div class="gallery-item1">
+      <img src="https://i.ibb.co/C09fTx0/IMG-5.png" alt="IMG-5">
+        <div class="gallery-item-title1">Image 4</div>
+      </div>
+	  <div class="gallery-item1">
+      <img src="https://i.ibb.co/fdymqGS/IMG-6.jpg" alt="IMG-6">
+        <div class="gallery-item-title">Image 5</div>
+      </div>
+      <div class="gallery-item1">
+      <img src="https://i.ibb.co/GHh5YZY/IMG-7.jpg" alt="IMG-7">
+        <div class="gallery-item-title1">Image 6</div>
+      </div>
+      <div class="gallery-item1">
+      <img src="https://i.ibb.co/VY1R88m/IMG-8.jpg" alt="IMG-8">
+        <div class="gallery-item-title1">Image 7</div>
+      </div>
+	  <div class="gallery-item1">
+      <img src="https://i.ibb.co/wNGK03j/IMG-9.jpg" alt="IMG-9">
+        <div class="gallery-item-title1">Image 8</div>
+      </div>
+    </div>
+  
+  
+<!horizontal dark green border>
+  <hr>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.7303982749386!2d72.83184150000001!3d18.943323899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce209bd3d87f%3A0x794a1f335a0af4ff!2s5%2C%20Mahapalika%20Marg%2C%20Dhobi%20Talao%2C%20Chhatrapati%20Shivaji%20Terminus%20Area%2C%20Fort%2C%20Mumbai%2C%20Maharashtra%20400001!5e0!3m2!1sen!2sin!4v1676562702211!5m2!1sen!2sin" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+  <!bottom rectangle>
+<div class="container1">
+  <class="textheading1 mobile-oversized" style="font-size: 40px; text-align: left;"><span style="font-family: 'Times New Roman', Times, serif; font-weight: bold;" class="mobile-oversized">Contact us <h2 class="textheading1 mobile-oversized" style="font-size: 32px; text-align: left;"><span style="font-family: 'Times New Roman', Times, serif; font-size: 32px; font-weight: bold;" class="mobile-oversized"> <br> 
+   <a href="tel:+91-22-22620661%20"> ✆ +91-22-22620661</a> <br>
+   <a href="webadmin@xaviers.edu"> ✉ webadmin@xaviers.edu</a>  <br>                                                      
+   <a href="https://www.google.com/maps/search/?api=1&query=%225%2C%20Mahapalika%20Marg%2C%20Mumbai-%20400001%2C%20Maharashtra%2C%20India%22"> 5, Mahapalika Marg, Mumbai 400001, Maharashtra</a> 	<br>
+    <a href="https://www.instagram.com/xpsa.xaviers/?hl=en"><img src="https://i.ibb.co/YjwNjyL/640px-Instagram-icon.png" alt="640px-Instagram-icon" width="40" height="40">  Follow us on Instagram </a>
+   </h2>   
+</div>
+  <center><h3> Copyright © St. Xavier's College, Mumbai.</h3></center>
+
+</center>
+</body>
+</html>
